@@ -338,3 +338,36 @@ footer{
     }
 
 }
+/* ==========================
+   ANIMACIONES
+========================== */
+
+.card,
+.section h2,
+.section p{
+
+    opacity:0;
+    transform:translateY(30px);
+
+    transition:
+    opacity .8s ease,
+    transform .8s ease;
+
+}
+
+.show{
+
+    opacity:1 !important;
+    transform:translateY(0) !important;
+
+}
+
+/* LINK ACTIVO */
+
+.nav-links a.active{
+
+    color:#D4A017;
+
+    font-weight:700;
+
+}
